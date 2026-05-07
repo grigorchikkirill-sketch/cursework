@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <categories>
+        <category id="1">
+            <name>Телевизоры</name>
+            <description>LED и OLED телевизоры</description>
+        </category>
+        <category id="2">
+            <name>Холодильники</name>
+            <description>Однокамерные и многокамерные холодильники</description>
+        </category>
+        <category id="3">
+            <name>Стиральные машины</name>
+            <description>Автоматические стиральные машины</description>
+        </category>
+        <category id="4">
+            <name>Пылесосы</name>
+            <description>Мешковые и безмешковые пылесосы</description>
+        </category>
+        <category id="5">
+            <name>Микроволновые печи</name>
+            <description>Соло и гриль микроволновки</description>
+        </category>
+        <category id="6">
+            <name>Кухонная техника</name>
+            <description>Блендеры, миксеры, чайники</description>
+        </category>
+        <category id="7">
+            <name>Климатическая техника</name>
+            <description>Кондиционеры и климатическое оборудование</description>
+        </category>
+    </categories>
+    <products>
+        <product id="101">
+            <name>Samsung UE55TU8000</name>
+            <category>Телевизоры</category>
+            <price>1599</price>
+            <description>55-дюймовый 4K UHD Smart TV с HDR и Crystal Display — яркое изображение и умные функции</description>
+             <image>Sumsung8000.jpg</image>
+            <stock>15</stock>
+        </product>
+        <product id="102">
+            <name>LG 55UP8100</name>
+            <category>Телевизоры</category>
+            <price>1499</price>
+            <description>55-дюймовый 4K UHD телевизор с WebOS и AI ThinQ — умный дом в вашем доме</description>
+             <image>LG 55UP8100.jpg</image>
+            <stock>8</stock>
+        </product>
+        <product id="103">
+            <name>Samsung RB37A554</name>
+            <category>Холодильники</category>
+            <price>1799</price>
+            <description>Холодильник No Frost объёмом 375 л с инверторным компрессором — экономия энергии и свежесть продуктов</description>
+             <image>Samsung RB37A52N0SAWT.jpg</image>
+            <stock>12</stock>
+        </product>
+        <product id="104">
+            <name>Indesit DF5180W</name>
+            <category>Холодильники</category>
+            <price>1199</price>
+            <description>Холодильник No Frost объёмом 310 л, энергоэффективность класса A+ — надёжность и экономия</description>
+             <image>Indesit DF5180W.jpg</image>
+            <stock>20</stock>
+        </product>
+        <product id="105">
+            <name>Samsung WW80T4020EE</name>
+            <category>Стиральные машины</category>
+            <price>999</price>
+            <description>Стиральная машина 8 кг, 1400 об/мин, функция AddWash — добавляйте бельё даже после старта</description>
+             <image>Samsung WW80T4020EE.png</image>
+            <stock>10</stock>
+        </product>
+        <product id="106">
+            <name>LG F2V5VYP2T</name>
+            <category>Стиральные машины</category>
+            <price>1299</price>
+            <description>Стиральная машина 9 кг, 1400 об/мин, технология AI DD — умная забота о вашем бельё</description>
+             <image>LG F2V5VYP2T.png</image>
+            <stock>7</stock>
+        </product>
+        <product id="107">
+            <name>Dyson V12 Detect</name>
+            <category>Пылесосы</category>
+            <price>1599</price>
+            <description>Беспроводной пылесос с лазерным датчиком пыли — видите каждую частичку грязи</description>
+             <image>Dyson V12 Detect.jpg</image>
+            <stock>5</stock>
+        </product>
+        <product id="108">
+            <name>Samsung VC18M2120</name>
+            <category>Пылесосы</category>
+            <price>329</price>
+            <description>Мешковый пылесос 1800 Вт с фильтром HEPA — мощная очистка воздуха</description>
+             <image>Samsung VC18M2120.jpg</image>
+            <stock>25</stock>
+        </product>
+        <product id="109">
+            <name>LG MB-3244J</name>
+            <category>Микроволновые печи</category>
+            <price>499</price>
+            <description>Микроволновая печь 32 л, 1000 Вт, с грилем — готовьте с удовольствием</description>
+             <image>LG MB-3244J.png</image>
+            <stock>18</stock>
+        </product>
+        <product id="110">
+            <name>Samsung ME88SUT</name>
+            <category>Микроволновые печи</category>
+            <price>399</price>
+            <description>Микроволновая печь 23 л, 800 Вт, соло — компактность и мощность</description>
+             <image>Samsung ME88SUT.jpg</image>
+            <stock>30</stock>
+        </product>
+        <product id="111">
+            <name>Сплит-система AC Electric ACEH-09HN1</name>
+            <category>Климатическая техника</category>
+            <price>99</price>
+            <description>Настенная сплит-система для охлаждения и обогрева, обслуживаемая площадь до 25 м², страна manufacture — Китай, гарантия 36 месяцев</description>
+             <image>cond.jpg</image>
+            <stock>7</stock>
+        </product>
+        <product id="112">
+            <name>Blender Philips HR2032/90</name>
+            <category>Кухонная техника</category>
+            <price>199</price>
+            <description>Блендер мощностью 1000 Вт с объёмом чаши 1.5 л и 8 скоростями — для смузи, супов и соусов</description>
+             <image>Blender Philips HR203290.png</image>
+            <stock>20</stock>
+        </product>
+        <product id="113">
+            <name>Чайник Bosch TWK3A011ST</name>
+            <category>Кухонная техника</category>
+            <price>149</price>
+            <description>Электрический чайник Bosch 2200 Вт, объём 1.7 л, с автоматическим отключением — безопасность и скорость</description>
+             <image>Charger Bosch TWK3A011ST.png</image>
+            <stock>35</stock>
+        </product>
+        <product id="114">
+            <name>Тостер Tefal TT355E11</name>
+            <category>Кухонная техника</category>
+            <price>179</price>
+            <description>Тостер 1600 Вт с двумя независимыми уровнями поджарки и функцией разморозки — идеальный завтрак каждый день</description>
+             <image>Toaster Tefal TT355E11.png</image>
+            <stock>15</stock>
+        </product>
+    </products>
+</catalog>

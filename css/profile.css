@@ -1,0 +1,126 @@
+.profile {
+  padding: 60px 0;
+}
+
+.profile__grid {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+.profile__sidebar {
+  position: sticky;
+  top: 100px;
+}
+
+.profile__card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profile__name {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.profile__email {
+  font-size: 14px;
+  color: #6a6a6a;
+}
+
+.profile__menu {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile__menu-link {
+  display: block;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+  transition: background 0.2s;
+}
+
+.profile__menu-link:hover,
+.profile__menu-link.active {
+  background: red;
+  color: white;
+}
+
+.profile__content {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile__section-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.profile__form-group {
+  margin-bottom: 20px;
+}
+
+.profile__form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.profile__form-group input,
+.profile__form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.profile__form-group input:focus,
+.profile__form-group textarea:focus {
+  border-color: red;
+}
+
+.profile__btn {
+  padding: 14px 30px;
+  background: red;
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.profile__btn:hover {
+  background: #cc0000;
+}
+
+@media (max-width: 992px) {
+  .profile__grid {
+    grid-template-columns: 1fr;
+  }
+  .profile__sidebar {
+    position: static;
+  }
+  .profile__menu {
+    flex-direction: row;
+    overflow-x: auto;
+  }
+}
